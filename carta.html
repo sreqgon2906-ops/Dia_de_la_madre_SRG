@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta 💌</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="./script.js" defer></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+      
+          <div class="logo">💖 Para tí Mami</div>
+      
+          <div class="nav-links">
+            <a href="dia_de_la_madre.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a href="fotos.html">Fotos</a>
+      
+            <button id="btnMusica">🎵</button>
+            <button id="btnReset">🔄</button>
+          </div>
+      
+        </div>
+      </nav>
+
+<audio id="musica" loop>
+    <source src="audio/lifetime.mp3" type="audio/mpeg">
+</audio>
+
+<section class="pantalla">
+
+  <div class="botones-carta">
+      <button id="btnAbrir">Abrir carta 💌</button>
+      <button id="btnCerrar">Cerrar carta 💌</button>
+  </div>
+
+  <div id="cartaBox" class="carta">
+      <div id="textoCarta"></div>
+  </div>
+
+</section>
+
+</body>
+<audio id="musica" loop preload="auto">
+    <source src="audio/lifetime.mp3" type="audio/mpeg">
+</audio>
+</html>

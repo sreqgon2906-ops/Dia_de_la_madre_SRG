@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fotos 📸</title>
+<link rel="stylesheet" href="estilos.css">
+<script src="./script.js" defer></script>
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">💖 Para tí Mami</div>
+
+        <div class="nav-links">
+            <a href="dia_de_la_madre.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a href="fotos.html">Fotos</a>
+
+            <button id="btnMusica">🎵</button>
+            <button id="btnReset">🔄</button>
+        </div>
+    </div>
+</nav>
+
+<section class="pantalla">
+
+    <div class="carrusel">
+        <button>❮</button>
+        <img id="imagen" src="imagenes/foto1.jpg">
+        <button>❯</button>
+    </div>
+
+    <p id="fraseCarrusel" class="frase"></p>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal hidden">
+        <span id="cerrar">&times;</span>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <button class="modal-btn prev">❮</button>
+        <img id="imagenGrande">
+
+        <p id="fraseModal" class="frase-modal"></p>
+        <p></p>
+        <p></p>
+
+        <button class="modal-btn next">❯</button>
+    </div>
+
+    <br>
+    <button onclick="window.location.href='carta.html'">Volver 💌</button>
+
+</section>
+
+<audio id="musica" loop preload="auto">
+    <source src="audio/lifetime.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
