@@ -4,7 +4,7 @@ body {
 
     background:
     linear-gradient(rgba(255,182,193,0.3), rgba(255,182,193,0.4)),
-    url("./imagenes/portada.jpg");
+    url("./portada.jpg");
 
     background-size: cover;
     background-position: center;
@@ -263,7 +263,7 @@ body::before {
     max-width: 900px;
     min-height: 1300px;
 
-    background: url("./imagenes/pergamino.png") center/contain no-repeat;
+    background: url("./pergamino.png") center/contain no-repeat;
 
     padding: 100px 80px;
 
@@ -316,7 +316,7 @@ body::before {
 
     background:
     linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
-    url("./imagenes/portada.png");
+    url("./portada.png");
 
     background-size: cover;
     background-position: center;
